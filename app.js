@@ -16,3 +16,14 @@ const isOddOrEven = (num) => {
         return "Odd";
     }
 };
+// ii. switch 
+const isPrime = (num) => {
+    if (num <= 1) return "Not prime";
+
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            return "Not prime";
+        }
+    }
+    return "Prime";
+};
