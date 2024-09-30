@@ -27,7 +27,7 @@ const isPrime = (num) => {
     }
     return "Prime";
 };
-// 4. Loops - Check for palindrome
+// 4. Loops 
 const isPalindrome = (str) => {
     let reversed = "";
     for (let i = str.length - 1; i >= 0; i--) {
@@ -35,3 +35,7 @@ const isPalindrome = (str) => {
     }
     return str === reversed ? "Palindrome" : "Not a palindrome";
 };
+// 5. Functional Programming
+// Determine if the number is odd or even
+const numberType = isOddOrEven(number);
+console.log(`The number ${number} is: ${numberType}`);
