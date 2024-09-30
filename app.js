@@ -39,3 +39,6 @@ const isPalindrome = (str) => {
 // Determine if the number is odd or even
 const numberType = isOddOrEven(number);
 console.log(`The number ${number} is: ${numberType}`);
+// Determine if the number is prime
+primeStatus = isPrime(number);
+console.log(`The number ${number} is: ${primeStatus}`);
